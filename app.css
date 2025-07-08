@@ -261,7 +261,7 @@ h2.home-subsection-description {
 .about-skills-title-wrapper {
     display: block;/*By default its block, and represents vizualization of Home Title Wrapper-Yellow*/
     margin: 65px 125px 64px 125px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
-    /* border: 5px solid yellow; Temporary visibility of the flex display */
+    border: 5px solid yellow; /*Temporary visibility of the flex display*/
 }
 
 h3.about-skills-subsection-title {
@@ -273,4 +273,10 @@ h3.about-skills-subsection-title {
     line-height: 1.5;
     font-size: 40px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
     border: 1px solid blue; /*Temporary visibility of the flex display*/
+}
+
+.about-skills-content-text {
+    text-align: center;
+    border: 1px solid blue; /*Temporary visibility of the flex display*/
+    margin: 30px 180px 50px 180px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
 }
