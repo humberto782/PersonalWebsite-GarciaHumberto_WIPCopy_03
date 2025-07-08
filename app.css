@@ -1,0 +1,276 @@
+/* REMOVING THE DEFAULT STYLINGS FROM THE PAGE */
+/* Default Desktop(min-width: 1281px, For around up to 1920x1080/16:9 screens) */
+/* ------ BASE ------ */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #3E3E3E;
+    overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+    display: none; /* Hides the scrollbar */
+}
+
+h1 {
+    display: block;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    letter-spacing: -1px;
+    color: #fff;
+}
+
+h2 {
+    display: block;
+    font-family: "Poppins", serif;
+    letter-spacing: -1px;
+    border: 1px solid blue; /*Temporary visibility of the flex display*/
+}
+
+h3 {
+    display: block;
+    font-family: "Poppins", serif;
+    letter-spacing: -1px;
+    color: #fff;
+    border: 1px solid blue; /*Temporary visibility of the flex display*/
+}
+
+/* ------ HEADER ------ */
+.navbar-header {
+    background-color: rgba(45, 60, 63);
+    border-bottom: 5px solid rgba(44, 58, 60);
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.navbar-content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 5px solid yellow;/*Temporary visibility of the flex display*/
+}
+
+.navbar-content-logo {
+    display: block;
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.my-logo-home {
+    padding: 10px 25px 10px 25px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+    margin: 10px 35px 10px 35px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+    font-size: 36px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+    letter-spacing: -1px;
+    color: #17A2B8;
+    border: 1px solid blue; /*Temporary visibility of the flex display*/
+}
+
+.dropdown-toggle {
+    display: none;
+}
+
+.dropdown-menu {
+    display: block;
+    font-family: "Poppins", serif;
+    list-style-type: none;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.dropdown-menu a {
+    display: block;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.dropdown-menu li {
+    display: inline-block;
+}
+
+.my-about-skills, .my-projects, .my-contact {
+    align-items: center;
+    text-align: center;
+    padding: 25px 30px 25px 30px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+    margin: 5px 5px 5px 60px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+    font-size: 24px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+    letter-spacing: -1px;
+    color: #fff;
+    border: 1px solid blue; /*Temporary visibility of the flex display*/
+}
+
+.my-ld-button {
+    align-items: center;
+    text-align: center;
+    padding: 25px 30px 25px 30px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+    margin: 5px 5px 5px 60px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+    font-size: 24px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+    letter-spacing: -1px;
+    color: #17A2B8;
+    border: 1px solid blue; /*Temporary visibility of the flex display*/
+}
+
+/* ------ HOME ------ */
+.section-home {
+    display: flex;/*flex layout by default is block, and represents visualization of Home Page Container-Green*/
+    justify-content: center;
+    flex-direction: row;
+    min-height: 200px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+    margin-top: 162px;/*Temporary size*/
+    margin-bottom: 110px;/*Temporary size*/
+    border: 1px solid green; /*Temporary visibility of the flex display*/
+}
+
+.home-content-image {
+    display: block;/*By default its block, and represents vizualization of Home Image Wrapper-Yellow*/
+    margin: 0px 50px 0px 50px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+    border: 5px solid yellow;/*Temporary visibility of the flex display*/
+}
+
+.avatar-image {
+    display: block;/*By default its block, and represents vizualization of Content-Blue/Red/Other*/
+    width: 550px;/*Temporary size*/
+    height: 550px;/*Temporary size*/
+    margin: 50px;/*Temporary size*/
+    border: 1px solid blue; /*Temporary visibility of the flex display*/
+}
+
+.home-title-wrapper {
+    display: block;/*By default its block, and represents vizualization of Home Title Wrapper-Yellow*/
+    align-self: center;
+    margin: 10px 50px 20px 100px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+    border: 5px solid yellow; /*Temporary visibility of the flex display*/
+}
+
+h1.home-subsection-title {
+    display: block;/*By default its block, and represents vizualization of Content-Blue/Red/Other*/
+    text-align: center;
+    margin: 10px 100px 20px 100px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+    font-weight: 600;
+    line-height: 1.5;
+    font-size: 80px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+    border: 1px solid blue; /*Temporary visibility of the flex display*/
+}
+
+.humberto-text {
+    font-weight: 700;
+    color: #17A2B8;
+}
+
+.hello-text {
+    margin-left: 60px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+    margin-right: 10px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+}
+
+.rectangle-back-design {
+    margin: 0px 0px -100px -30px;
+    width: 660px;/*Temporary size*/
+    height: 120px;/*Temporary size*/
+    border: 2px solid #000;
+}
+
+.rectangle-front-design {
+    margin: 0px -30px -135px 0px;
+    width: 660px;/*Temporary size*/
+    height: 120px;/*Temporary size*/
+    border: 2px solid #17A2B8;
+}
+
+h2.home-subsection-description {
+    display: block;/*By default its block, and represents vizualization of Content-Blue/Red/Other*/
+    text-align: center;
+    margin: 30px 100px 10px 100px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+    line-height: 1.5;
+    font-size: 40px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+    border: 1px solid blue; /*Temporary visibility of the flex display*/
+}
+
+.home-content-description {
+    display: block;/*By default its block, and represents vizualization of Content-Blue/Red/Other*/
+    margin: 5px 5px 5px 5px;
+    font-weight: 600;
+    color: #17A2B8;
+}
+
+.home-content-icons {
+    display: block;/*By default its block, and represents vizualization of Content-Blue/Red/Other*/
+    text-align: center;
+    margin: 10px 100px 10px 100px;
+    border: 1px solid blue; /*Temporary visibility of the flex display*/
+}
+
+.github-icon {
+    margin: 0px 0px -5px 0px;
+    width: 99.88px;/*Temporary size*/
+    height: 94.69px;/*Temporary size*/
+    border: 1px solid blue; /*Temporary visibility of the flex display*/
+}
+
+.home-content-button {
+    display: block;/*By default its block, and represents vizualization of Content-Blue/Red/Other*/
+    text-align: center;
+    margin: 50px 100px 10px 100px;
+    border: 1px solid blue; /*Temporary visibility of the flex display*/
+}
+
+.resume-button {
+    background: none;
+    width: 364px;
+    height: 72px;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: -1px;/*Temporary size*/
+    color: #17A2B8;
+    border: 2px solid #fff; /*Temporary visibility of the flex display*/
+    border-radius: 14px;/*Temporary size*/
+}
+.resume-button:hover {
+    background-color: rgb(68, 71, 73);/*Temporary color*/
+    cursor: pointer;
+}
+.resume-button:active {
+    background-color: rgba(35, 36, 37, 0.199);/*Temporary color*/
+    border-color: #17A2B8;
+}
+
+/* ------ ABOUT & SKILLS ------ */
+#about-skills {
+    scroll-margin: 30px;
+}
+
+.section-about-skills {
+    display: flex;/*flex layout by default is block, and represents visualization of About & Skills Page Container-Green*/
+    justify-content: center;
+    flex-direction: row;
+    min-height: 1050px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+    margin-top: 110px;/*Temporary size*/
+    margin-bottom: 100px;/*Temporary size*/
+    border: 1px solid green; /*Temporary visibility of the flex display*/
+}
+
+.about-skills-title-wrapper {
+    display: block;/*By default its block, and represents vizualization of Home Title Wrapper-Yellow*/
+    margin: 65px 125px 64px 125px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+    border: 5px solid yellow; /*Temporary visibility of the flex display*/
+}
+
+h3.about-skills-subsection-title {
+    display: block;/*By default its block, and represents vizualization of Content-Blue/Red/Other*/
+    text-align: center;
+    margin: 30px 350px 50px 350px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+    font-weight: 600;
+    letter-spacing: -1px;
+    line-height: 1.5;
+    font-size: 40px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+    border: 1px solid blue; /*Temporary visibility of the flex display*/
+}

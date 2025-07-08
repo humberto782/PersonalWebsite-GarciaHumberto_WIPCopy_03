@@ -1,0 +1,585 @@
+@media (max-width: 500px) {/* Mobile */
+    /* ------ HEADER ------ */
+    .navbar-header {
+        width: 500px;/*Temporary size/Maybe not necessary since overflow-x fixes the issue*/
+    }
+
+    .navbar-content-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        height: 90px;
+        border: none;/*Temporary no visibility of the flex display*/
+    }
+
+    .navbar-content-logo {
+        display: block;
+        font-size: 30px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+    }
+
+    .my-logo-home {
+        padding: 8px 4px 8px 4px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        margin: 6px 4px 6px 4px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        font-size: 21px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+    }
+
+    .dropdown-toggle {
+        display: block;
+        align-items: start;
+        justify-content: end;
+        padding: 25px 12px 20px 12px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        margin: 5px 5px 5px 5px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        background: none;
+        border: 1px solid blue; /*Temporary visibility of the flex display*/
+    }
+    .dropdown-toggle:hover {
+        cursor: pointer;
+    }
+
+    .hamburger-icon {
+        width: 35px;
+        height: 30px;
+    }
+
+    .dropdown-menu {
+        display: none;
+        padding: .75rem;
+        margin: 0px -5px 0px 0px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        position: absolute;
+        width: 500px;/*Temporary size/Maybe not necessary since overflow-x fixes the issue*/
+        right: 0;
+        top: calc(100% + .25rem);
+        opacity: 0;
+        background: #2e3c3f;
+        /* border: 5px solid yellow;Temporary visibility of the flex display */
+    }
+    .dropdown-menu.open {
+        display: block;
+        opacity: 1;
+    }
+
+    .dropdown-menu li {
+        display: block;
+    }
+
+    .my-about-skills, .my-projects, .my-contact {
+        align-items: center;
+        text-align: center;
+        padding: 5px 5px 5px 5px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        margin: 5px 5px 5px 5px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+    }
+
+    .my-ld-button {
+        align-items: center;
+        text-align: center;
+        padding: 5px 5px 5px 5px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        margin: 5px 5px 5px 5px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        font-size: 24px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+    }
+
+    /* ------ HOME ------ */
+    .section-home {
+        flex-direction: column;
+        align-items: center;
+        width: 500px;/*Temporary size*/
+        margin: 117px 0px 50px 0px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        background-color: #3E3E3E;/*Temporary visibility of the flex display-placeholder green/actual bg-color #3E3E3E*/
+        border: none;/*Temporary no visibility of the flex display*/
+    }
+
+    .home-content-image {
+        margin: 0px 0px 0px 0px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        border: none;/*Temporary no visibility of the flex display*/
+    }
+
+    .avatar-image {
+        margin: 15px 50px 20px 50px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        width: 300px;/*Temporary size*/
+        height: 300px;/*Temporary size*/
+    }
+
+    .home-title-wrapper {
+        align-self: flex-start;
+        margin: 0px 0px 0px -1px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        width: 500px;/*Temporary size*/
+        border: none;/*Temporary no visibility of the flex display*/
+    }
+
+    h1.home-subsection-title {
+        margin: 5px 47px 0px 47px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        height: 170px;/*Temporary size*/
+        font-size: 48px;/*Temporary size*/
+    }
+
+    .handwave-icon {
+        width: 48px;
+        height: 50.32px;
+    }
+
+    .rectangle-back-design {
+        margin: 0px 0px -70px -20px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        width: 425px;/*Temporary size*/
+        height: 85px;/*Temporary size*/
+        border: 1px solid #000;
+    }
+
+    .rectangle-front-design {
+        margin: 0px 0px -85px 0px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        width: 425px;/*Temporary size*/
+        height: 85px;/*Temporary size*/
+        border: 2px solid #17A2B8;
+    }
+
+    h2.home-subsection-description {
+        margin: 10px 47px 0px 47px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+    }
+
+    .home-content-description {
+        font-size: 26px;/*Temporary size*/
+    }
+
+    .github-icon {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: 73.88px;/*Temporary size*/
+        height: 68.69px;/*Temporary size*/
+    }
+
+    .home-content-button {
+        margin: 15px 80px 10px 80px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+    }
+
+    .resume-button {
+        width: 240px;/*Temporary size*/
+        height: 65px;/*Temporary size*/
+        font-size: 22px;/*Temporary size*/
+        border: 1px solid #fff;
+        border-radius: 10px;/*Temporary size*/
+    }
+}
+
+@media (min-width: 501px) and (max-width: 768px) {/* Tablet */
+    /* ------ HEADER ------ */
+    .my-logo-home {
+        padding: 8px 4px 8px 4px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        margin: 6px 4px 6px 4px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        font-size: 21px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+    }
+
+    .my-about-skills, .my-projects, .my-contact {
+        align-items: center;
+        text-align: center;
+        padding: 26px 10px 26px 10px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        margin: 6px 10px 6px 10px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        font-size: 14px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+    }
+
+    .my-ld-button {
+        align-items: center;
+        text-align: center;
+        padding: 26px 10px 26px 10px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        margin: 6px 4px 6px 10px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        font-size: 14px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+    }
+    
+    /* ------ HOME ------ */
+    .section-home {
+        flex-direction: column;
+        align-items: center;
+        /* width: 500px;Temporary size */
+        margin: 117px 0px 50px 0px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        background-color: #3E3E3E;/*Temporary visibility of the flex display-placeholder green/actual bg-color #3E3E3E*/
+    }
+
+    .avatar-image {
+        margin: 15px 50px 20px 50px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        width: 320px;/*Temporary size*/
+        height: 320px;/*Temporary size*/
+    }
+
+    .home-title-wrapper {
+        align-self: center;
+        margin: 0px 0px 0px -1px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        width: 525px;/*Temporary size*/
+    }
+
+    h1.home-subsection-title {
+        margin: 5px 47px 0px 47px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        height: 180px;/*Temporary size*/
+        font-size: 53px;/*Temporary size*/
+    }
+
+    .handwave-icon {
+        width: 53px;
+        height: 50.32px;
+    }
+
+    .rectangle-back-design {
+        margin: 0px 0px -70px -20px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        width: 440px;/*Temporary size*/
+        height: 85px;/*Temporary size*/
+        border: 1px solid #000;
+    }
+
+    .rectangle-front-design {
+        margin: 0px 0px -85px 0px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        width: 440px;/*Temporary size*/
+        height: 85px;/*Temporary size*/
+        border: 2px solid #17A2B8;
+    }
+
+    h2.home-subsection-description {
+        margin: 10px 47px 0px 47px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+    }
+
+    .home-content-description {
+        font-size: 26px;/*Temporary size*/
+    }
+
+    .github-icon {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: 78.88px;/*Temporary size*/
+        height: 73.69px;/*Temporary size*/
+    }
+
+    .home-content-button {
+        margin: 15px 80px 10px 80px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+    }
+
+    .resume-button {
+        width: 240px;/*Temporary size*/
+        height: 65px;/*Temporary size*/
+        font-size: 22px;/*Temporary size*/
+        border: 1px solid #fff;
+        border-radius: 10px;/*Temporary size*/
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {/* Laptop */
+    /* ------ HEADER ------ */
+    .navbar-content-wrapper {
+        /* border: none;Temporary no visibility of the flex display */
+    }
+
+    .my-logo-home {
+        padding: 8px 4px 8px 4px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        margin: 6px 16px 6px 16px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        font-size: 25px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+    }
+
+    .my-about-skills, .my-projects, .my-contact {
+        align-items: center;
+        text-align: center;
+        padding: 26px 10px 26px 10px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        margin: 6px 10px 6px 30px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        font-size: 17px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+    }
+
+    .my-ld-button {
+        align-items: center;
+        text-align: center;
+        padding: 26px 10px 26px 10px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        margin: 6px 4px 6px 30px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        font-size: 17px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+    }
+
+    /* ------ HOME ------ */
+    .section-home {
+        display: flex;/*flex layout by default is block, and represents visualization of Home Page Container-Green*/
+        justify-content: center;
+        flex-direction: row;
+        min-height: 200px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        margin: 187px 0px 100px 0px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        /* border: none;Temporary no visibility of the flex display */
+    }
+
+    .home-content-image {
+        display: block;/*By default its block, and represents vizualization of Home Image Wrapper-Yellow*/
+        align-self: center;
+        margin: 0px 40px 0px 10px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        /* border: none;Temporary no visibility of the flex display */
+    }
+
+    .avatar-image {
+        display: block;/*By default its block, and represents vizualization of Content-Blue/Red/Other*/
+        width: 320px;/*Temporary size*/
+        height: 320px;/*Temporary size*/
+        margin: 10px;/*Temporary size*/
+        /* border: none;Temporary no visibility of the flex display */
+    }
+
+    .home-title-wrapper {
+        display: block;/*By default its block, and represents vizualization of Home Title Wrapper-Yellow*/
+        align-self: center;
+        margin: 10px 20px 20px 20px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        /* border: none;Temporary no visibility of the flex display */
+    }
+
+    h1.home-subsection-title {
+        display: block;/*By default its block, and represents vizualization of Content-Blue/Red/Other*/
+        text-align: center;
+        margin: 10px 10px 20px 10px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        font-weight: 600;
+        line-height: 1.5;
+        font-size: 42px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        /* border: none;Temporary no visibility of the flex display */
+    }
+
+    .handwave-icon {
+        width: 45px;
+        height: 42.32px;
+    }
+
+    .humberto-text {
+        font-weight: 700;
+        color: #17A2B8;
+    }
+    
+    .hello-text {
+        margin-left: 60px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        margin-right: 10px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+    }
+    
+    .rectangle-back-design {
+        margin: 0px 0px -50px -10px;
+        width: 310px;/*Temporary size*/
+        height: 60px;/*Temporary size*/
+        border: 1px solid #000;
+    }
+    
+    .rectangle-front-design {
+        margin: 0px -30px -65px 0px;
+        width: 310px;/*Temporary size*/
+        height: 60px;/*Temporary size*/
+        border: 1px solid #17A2B8;
+    }
+    
+    h2.home-subsection-description {
+        display: block;/*By default its block, and represents vizualization of Content-Blue/Red/Other*/
+        text-align: center;
+        margin: 30px 10px 10px 10px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        line-height: 1.5;
+        font-size: 25px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        /* border: none;Temporary no visibility of the flex display */
+    }
+    
+    .home-content-description {
+        display: block;/*By default its block, and represents vizualization of Content-Blue/Red/Other*/
+        margin: 5px 5px 5px 5px;
+        font-weight: 600;
+        color: #17A2B8;
+    }
+    
+    .home-content-icons {
+        display: block;/*By default its block, and represents vizualization of Content-Blue/Red/Other*/
+        text-align: center;
+        margin: 10px 10px 10px 10px;
+        /* border: none;Temporary no visibility of the flex display */
+    }
+    
+    .github-icon {
+        margin: 0px 0px -5px 0px;
+        width: 69.88px;/*Temporary size*/
+        height: 64.69px;/*Temporary size*/
+        /* border: none;Temporary no visibility of the flex display */
+    }
+    
+    .home-content-button {
+        display: block;/*By default its block, and represents vizualization of Content-Blue/Red/Other*/
+        text-align: center;
+        margin: 50px 10px 10px 10px;
+        /* border: none;Temporary no visibility of the flex display */
+    }
+    
+    .resume-button {
+        background: none;
+        width: 265px;
+        height: 55px;
+        font-size: 23px;
+        font-weight: 600;
+        letter-spacing: -1px;/*Temporary size*/
+        color: #17A2B8;
+        border: 2px solid #fff; /*Temporary visibility of the flex display*/
+        border-radius: 14px;/*Temporary size*/
+    }
+    .resume-button:hover {
+        background-color: rgb(68, 71, 73);/*Temporary color*/
+        cursor: pointer;
+    }
+    .resume-button:active {
+        background-color: rgba(35, 36, 37, 0.199);/*Temporary color*/
+        border-color: #17A2B8;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {/* Desktop */
+    /* ------ HEADER ------ */
+    .navbar-content-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border: 5px solid yellow;/*Temporary visibility of the flex display*/
+    }
+
+    .my-logo-home {
+        padding: 10px 25px 10px 25px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        margin: 10px 20px 10px 20px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        font-size: 30px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        letter-spacing: -1px;
+        color: #17A2B8;
+        border: 1px solid blue; /*Temporary visibility of the flex display*/
+    }
+
+    .my-about-skills, .my-projects, .my-contact {
+        align-items: center;
+        text-align: center;
+        padding: 25px 30px 25px 20px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        margin: 5px 5px 5px 60px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        font-size: 20px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        letter-spacing: -1px;
+        color: #fff;
+        border: 1px solid blue; /*Temporary visibility of the flex display*/
+    }
+
+    .my-ld-button {
+        align-items: center;
+        text-align: center;
+        padding: 25px 30px 25px 20px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        margin: 5px 5px 5px 60px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        font-size: 20px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        letter-spacing: -1px;
+        color: #17A2B8;
+        border: 1px solid blue; /*Temporary visibility of the flex display*/
+    }
+
+    /* ------ HOME ------ */
+    .section-home {
+        display: flex;/*flex layout by default is block, and represents visualization of Home Page Container-Green*/
+        justify-content: center;
+        flex-direction: row;
+        min-height: 200px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        margin-top: 162px;/*Temporary size*/
+        margin-bottom: 50px;/*Temporary size*/
+        border: 1px solid green; /*Temporary visibility of the flex display*/
+    }
+
+    .home-content-image {
+        display: block;/*By default its block, and represents vizualization of Home Image Wrapper-Yellow*/
+        align-self: center;
+        margin: 0px 40px 0px 10px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        /* border: none;Temporary no visibility of the flex display */
+    }
+
+    .avatar-image {
+        display: block;/*By default its block, and represents vizualization of Content-Blue/Red/Other*/
+        width: 400px;/*Temporary size*/
+        height: 400px;/*Temporary size*/
+        margin: 10px;/*Temporary size*/
+        border: 1px solid blue; /*Temporary visibility of the flex display*/
+    }
+
+    .home-title-wrapper {
+        display: block;/*By default its block, and represents vizualization of Home Title Wrapper-Yellow*/
+        align-self: center;
+        margin: 10px 20px 20px 20px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        /* border: none;Temporary no visibility of the flex display */
+    }
+
+    h1.home-subsection-title {
+        display: block;/*By default its block, and represents vizualization of Content-Blue/Red/Other*/
+        text-align: center;
+        margin: 10px 30px 20px 30px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        font-weight: 600;
+        line-height: 1.5;
+        font-size: 65px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        /* border: none;Temporary no visibility of the flex display */
+    }
+
+    .handwave-icon {
+        width: 54px;
+        height: 57px;
+    }
+
+    .humberto-text {
+        font-weight: 700;
+        color: #17A2B8;
+    }
+    
+    .hello-text {
+        margin-left: 60px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        margin-right: 10px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+    }
+    
+    .rectangle-back-design {
+        margin: 0px 0px -85px -25px;
+        width: 500px;/*Temporary size*/
+        height: 105px;/*Temporary size*/
+        border: 2px solid #000;
+    }
+    
+    .rectangle-front-design {
+        margin: 0px -45px -115px 0px;
+        width: 500px;/*Temporary size*/
+        height: 105px;/*Temporary size*/
+        border: 2px solid #17A2B8;
+    }
+    
+    h2.home-subsection-description {
+        display: block;/*By default its block, and represents vizualization of Content-Blue/Red/Other*/
+        text-align: center;
+        margin: 30px 30px 10px 30px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        line-height: 1.5;
+        font-size: 31px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        /* border: none;Temporary no visibility of the flex display */
+    }
+    
+    .home-content-description {
+        display: block;/*By default its block, and represents vizualization of Content-Blue/Red/Other*/
+        margin: 5px 5px 5px 5px;
+        font-weight: 600;
+        color: #17A2B8;
+    }
+    
+    .home-content-icons {
+        display: block;/*By default its block, and represents vizualization of Content-Blue/Red/Other*/
+        text-align: center;
+        margin: 10px 30px 10px 30px;
+        /* border: none;Temporary no visibility of the flex display */
+    }
+    
+    .github-icon {
+        margin: 0px 0px -5px 0px;
+        width: 75.88px;/*Temporary size*/
+        height: 70.69px;/*Temporary size*/
+        /* border: none;Temporary no visibility of the flex display */
+    }
+    
+    .home-content-button {
+        display: block;/*By default its block, and represents vizualization of Content-Blue/Red/Other*/
+        text-align: center;
+        margin: 50px 30px 10px 30px;
+        /* border: none;Temporary no visibility of the flex display */
+    }
+    
+    .resume-button {
+        background: none;
+        width: 290px;
+        height: 60px;
+        font-size: 25px;
+        font-weight: 600;
+        letter-spacing: -1px;/*Temporary size*/
+        color: #17A2B8;
+        border: 2px solid #fff; /*Temporary visibility of the flex display*/
+        border-radius: 14px;/*Temporary size*/
+    }
+    .resume-button:hover {
+        background-color: rgb(68, 71, 73);/*Temporary color*/
+        cursor: pointer;
+    }
+    .resume-button:active {
+        background-color: rgba(35, 36, 37, 0.199);/*Temporary color*/
+        border-color: #17A2B8;
+    }
+}
