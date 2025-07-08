@@ -85,7 +85,7 @@
         width: 500px;/*Temporary size*/
         margin: 117px 0px 50px 0px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
         background-color: #3E3E3E;/*Temporary visibility of the flex display-placeholder green/actual bg-color #3E3E3E*/
-        border: none;/*Temporary no visibility of the flex display*/
+        /* border: none;Temporary no visibility of the flex display */
     }
 
     .home-content-image {
@@ -420,7 +420,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        border: 5px solid yellow;/*Temporary visibility of the flex display*/
+        /* border: 5px solid yellow;Temporary visibility of the flex display */
     }
 
     .my-logo-home {
