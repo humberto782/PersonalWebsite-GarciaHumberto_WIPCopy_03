@@ -159,9 +159,13 @@
     }
 
     /* ------ ABOUT & SKILLS ------ */
+    #about-skills {
+        scroll-margin: 100px;
+    }
+
     .section-about-skills {
         flex-direction: column;
-        min-height: 0px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        min-height: 1050px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
         align-items: center;
         width: 500px;/*Temporary size*/
         margin: 117px 0px 50px 0px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
