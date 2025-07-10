@@ -134,7 +134,7 @@ h3 {
 .home-content-image {
     display: block;/*By default its block, and represents vizualization of Home Image Wrapper-Yellow*/
     margin: 0px 50px 0px 50px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
-    /* border: 5px solid yellow;Temporary visibility of the flex display */
+    border: 5px solid yellow;/*Temporary visibility of the flex display*/
 }
 
 .avatar-image {
@@ -149,7 +149,7 @@ h3 {
     display: block;/*By default its block, and represents vizualization of Home Title Wrapper-Yellow*/
     align-self: center;
     margin: 10px 50px 20px 100px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
-    /* border: 5px solid yellow; Temporary visibility of the flex display */
+    border: 5px solid yellow; /*Temporary visibility of the flex display*/
 }
 
 h1.home-subsection-title {
@@ -250,8 +250,8 @@ h2.home-subsection-description {
 
 .section-about-skills {
     display: flex;/*flex layout by default is block, and represents visualization of About & Skills Page Container-Green*/
-    justify-content: center;
-    flex-direction: row;
+    justify-content:flex-start;
+    flex-direction: column;
     min-height: 1050px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
     margin-top: 110px;/*Temporary size*/
     margin-bottom: 100px;/*Temporary size*/
@@ -260,23 +260,36 @@ h2.home-subsection-description {
 
 .about-skills-title-wrapper {
     display: block;/*By default its block, and represents vizualization of Home Title Wrapper-Yellow*/
-    margin: 65px 125px 64px 125px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+    margin: 70px 125px 15px 125px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
     border: 5px solid yellow; /*Temporary visibility of the flex display*/
 }
 
 h3.about-skills-subsection-title {
     display: block;/*By default its block, and represents vizualization of Content-Blue/Red/Other*/
     text-align: center;
-    margin: 30px 350px 50px 350px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
-    font-weight: 600;
+    margin: 15px 30px 15px 30px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
     letter-spacing: -1px;
     line-height: 1.5;
     font-size: 40px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
     border: 1px solid blue; /*Temporary visibility of the flex display*/
 }
 
+.pending-about-skills-content-title {
+    display: block;/*By default its block, and represents vizualization of Content-Blue/Red/Other*/
+    margin: 5px 5px 5px 5px;
+    font-weight: 600;
+}
+
 .about-skills-content-text {
+    display: block;/*By default its block, and represents vizualization of Content-Blue/Red/Other*/
+    text-align: center;
+    border: 5px solid yellow; /*Temporary visibility of the flex display*/
+    margin: 15px 0px 10px 0px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+}
+
+.pending-paragraph-content {
+    display: block;/*By default its block, and represents vizualization of Content-Blue/Red/Other*/
     text-align: center;
     border: 1px solid blue; /*Temporary visibility of the flex display*/
-    margin: 30px 180px 50px 180px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+    margin: 15px 50px 20px 50px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
 }

@@ -90,7 +90,7 @@
 
     .home-content-image {
         margin: 0px 0px 0px 0px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
-        border: none;/*Temporary no visibility of the flex display*/
+        /* border: none;Temporary no visibility of the flex display */
     }
 
     .avatar-image {
@@ -103,7 +103,7 @@
         align-self: flex-start;
         margin: 0px 0px 0px -1px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
         width: 500px;/*Temporary size*/
-        border: none;/*Temporary no visibility of the flex display*/
+        /* border: none;Temporary no visibility of the flex display */
     }
 
     h1.home-subsection-title {
@@ -156,6 +156,23 @@
         font-size: 22px;/*Temporary size*/
         border: 1px solid #fff;
         border-radius: 10px;/*Temporary size*/
+    }
+
+    /* ------ ABOUT & SKILLS ------ */
+    .section-about-skills {
+        flex-direction: column;
+        min-height: 0px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        align-items: center;
+        width: 500px;/*Temporary size*/
+        margin: 117px 0px 50px 0px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        background-color: #3E3E3E;/*Temporary visibility of the flex display-placeholder green/actual bg-color #3E3E3E*/
+        /* border: none;Temporary no visibility of the flex display */
+    }
+
+    .about-skills-title-wrapper {
+        margin: 0px 0px 0px 0px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        width: 500px;
+        /* border: none;Temporary no visibility of the flex display */
     }
 }
 
