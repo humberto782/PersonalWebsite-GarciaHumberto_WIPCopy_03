@@ -1,7 +1,11 @@
 @media (max-width: 500px) {/* Mobile */
     /* ------ HEADER ------ */
     .navbar-header {
-        width: 500px;/*Temporary size/Maybe not necessary since overflow-x fixes the issue*/
+        background-color: rgba(45, 60, 63);
+        border-bottom: 5px solid rgba(44, 58, 60);
+        position: fixed;
+        top: 0px;
+        width: 100%;
     }
 
     .navbar-content-wrapper {
